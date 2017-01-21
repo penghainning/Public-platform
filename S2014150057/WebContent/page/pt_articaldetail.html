@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="../css/pt_articaldetail.css">
+<script src="../scrip/jquery.js"></script>
+<script src="../scrip/pt_articaldetail.js"></script>
+<body>
+<table class="defaultTable" cellspacing="0">
+						<tr>
+							<td class="column">标题：</td>
+							<td class="name"  colspan="2"><h2 id="title"></h2></td>
+						</tr>
+						
+						<tr height="500px">
+							<td class="column">正文：</td>
+							<td class="name" colspan="2">
+							<div id="divIntro">
+									
+				    		</div>	
+                            </td>
+						</tr>
+						
+						
+						<tr>
+							<td class="column">点赞人数：</td>
+							<td class="name" colspan="2" id="lovecount">3</td>
+						</tr>
+
+						<tr>
+							<td class="column">点赞用户列表：</td>
+							<td class="name" colspan="2">
+								<div id="lovename">
+									
+				    		</div>	
+                            </td>
+						</tr>
+
+						<tr>
+							<td class="column">评论列表：</td>
+							
+							<td class="name" colspan="2">
+								<div id="comment">
+								
+
+				    		</div>	
+                            </td>
+						</tr>
+						
+						<tr>
+							<td class="column">我的评论：</td>
+							
+							<td class="name" colspan="2">
+								<div id="mycomment">
+								
+
+				    		</div>	
+                            </td>
+						</tr>
+				</table>
+                
+                
+   		<div class="submit">
+  				<input type="button" id="pl" class="btn" value="评论">
+  				<input type="button" id="love" class="btn" value="点赞">
+  				<input type="button" id="back" class="btn" value="返回">
+ 		</div>    
+ 			<div id="pinglun" >
+
+			<textarea onkeyup="checkLen(this)" id="txt" cols="50" rows="15"  style="display: block; margin: 0 auto;"></textarea>
+			<div style="position: relative;left: 520px;">您还可以输入 <span id="count">200</span> 个文字
+			<input type="submit" id="submit" value="提交" style="display: inline-block;width: 80px; height: 40px;margin-top: 10px;">
+
+			</div>
+
+			</div>
+			
+			
+<script>
+	function checkLen(obj) 
+	{
+		var maxChars = 200;
+		if (obj.value.length > maxChars)
+			obj.value = obj.value.substring(0,maxChars);
+		var curr = maxChars - obj.value.length;
+			document.getElementById("count").innerHTML = curr.toString();
+	}
+</script>
+			 	     
+</body>
+				
+</html>

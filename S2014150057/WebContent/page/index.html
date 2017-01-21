@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>公众号管理平台</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta   http-equiv="Expires"   CONTENT="0">
+	<meta   http-equiv="Cache-Control"   CONTENT="no-cache,must-revalidate">
+	<meta   http-equiv="Pragma"   CONTENT="no-cache">
+  	<link rel="stylesheet" href="../css/index.css">
+    <script src="../scrip/jquery.js"></script> 
+    <script src="../scrip/index.js"></script>     
+</head>
+<body>
+<div>
+	<div class="header">
+	<div>
+		<ul>
+			<li ><img id="pic" src="../image/y.jpg" ></li>
+			<li id="font">首页</li>
+			<li><a href="javascript:void(0)" id="out"><img id="login_out" src="../image/login_out.png"></a></li>
+		</ul>
+	</div>
+		
+	<div id="welcome">欢迎你！admin</div>
+	</div>
+	<div class="frame">
+		<div class="left">
+			<div id="cd"><img src="../image/menu.png"></div>
+			<h3 class="article"><a href="#">文章管理</a></h3>
+
+			<ul id="article_ul" style="display: block;">
+				<li  ><a class="on"  href="../page/artical.html" target="right" >所有文章</a></li>
+				<li><a  href="../page/careuser.html" target="right" >订阅用户列表</a></li>
+			</ul>
+
+			<h3 class="setting"><a href="#">基本设置</a></h3>
+
+			<ul id="setting_ul" style="display: none;">
+
+				<li><a href="../page/changepass.html" target="right" >修改密码</a></li>
+				<li><a  href="../page/setting.html" target="right" >完善个人资料</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<div id="m_header" >
+				<h3 id="title">所有文章</h3>
+			</div>
+			<iframe scrolling="auto" frameborder="0" src="../page/artical.html" name="right" width="100%" height="100%"></iframe>
+		</div>
+	</div>
+</div>
+</body>
+</html>

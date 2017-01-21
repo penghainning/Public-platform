@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta   http-equiv="Expires"   CONTENT="0">
+	<meta   http-equiv="Cache-Control"   CONTENT="no-cache,must-revalidate">
+	<meta   http-equiv="Pragma"   CONTENT="no-cache">
+    <title></title>  
+    <link rel="stylesheet" href="../css/userdetail.css">
+    <script src="../scrip/jquery.js"></script>   
+     <script src="../scrip/pt_userdetail.js"></script>   
+
+
+</head>
+<body>
+<div class="main">	<!-- 个人信息列表 -->
+<div class="box-wrap">
+<div class="title"><h2>个人信息</h2></div>
+<div class="content">
+<form action="#" method="post" name="settingform" onsubmit="return false">
+	<table>
+	 <tbody>
+     
+      <tr>
+		<td class="td-tex">
+        <label for="photo">&nbsp;头&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;像:</label>
+        </td>
+        <td>
+		 <img id="photo" class="photo" style="width:150px;height:100px" src="a">
+		</td>
+	 </tr>
+     
+	  <tr>
+		<td class="td-tex">
+		 <label for="nickname">&nbsp;昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称:</label>
+         </td>
+			
+         <td>
+         	<input type="text" id="nickname" disabled="disabled" class="normal-input td-input" value="王大锤">
+         </td>
+         
+		
+	 </tr>
+									
+     <tr>
+		<td class="td-tex">
+        <label for="sex">&nbsp;性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别:</label>
+        </td>
+		
+        <td>
+	    <input type="text" disabled="disabled" class="normal-input td-input" id="sex" value="男">
+		</td>
+	 </tr>
+     
+	 <tr>
+		<td class="td-tex">
+        <label for="identity">&nbsp;邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</label>
+        </td>
+    
+	    <td>
+        <input type="text" class="normal-input td-input" id="mail" disabled="disabled" value="1321@qq.com">
+        </td>
+	</tr>
+										
+	<tr>                                  
+		<td class="td-tex">
+        <label for="phone">&nbsp;手&nbsp;&nbsp;&nbsp;&nbsp;机:</label>
+        </td>
+        
+		<td>
+        <input type="text" disabled="disabled" class="normal-input td-input" id="phone" value="131****1211">
+        </td>
+	</tr>
+										
+       <tr>
+	      <td class="td-tex">
+          <label for="specification">&nbsp;地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区:</label>
+          </td>
+		<td><input type="text"  class="normal-input td-input" id="city" value="上海" disabled="disabled">
+        </td>
+      </tr>
+	</tbody>
+</table>
+</form>
+</div>
+ </div>
+</div>
+     <div class="submit">
+  		<input type="button" id="back" class="btn" value="返回">
+ 	</div>     
+                              
+</body>
+</html>

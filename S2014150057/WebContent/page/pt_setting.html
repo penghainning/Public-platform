@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta   http-equiv="Expires"   CONTENT="0">
+<meta   http-equiv="Cache-Control"   CONTENT="no-cache,must-revalidate">
+<meta   http-equiv="Pragma"   CONTENT="no-cache">
+<title></title>
+<link rel="stylesheet" href="../css/pt_setting.css">
+<script src="../scrip/jquery.js"></script>
+<script src="../scrip/pt_setting.js"></script>
+<script src="../jUploader/jUploader-1.01.js"></script>
+</head>
+<body>
+<div class="main">	<!-- 个人信息列表 -->
+<div class="box-wrap">
+<div class="title"><h2>个人信息</h2></div>
+<div class="content">
+
+	<table>
+	 <tbody>
+	  <tr>
+		<td class="td-tex">
+		 <input type="text" name="uid" style="display:none" id="uid" value="">
+		 <label for="nickname">&nbsp;昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称:</label>
+         </td>
+			
+         <td>
+         	<input type="text" name="nickname" class="normal-input td-input" id="nickname" value="">
+         </td>
+         
+		 <td rowspan="5" class="td-image" id="rowss">
+		   <div style="margin:5px 9px 30px 9px;" id="photostyle"> 
+		   <center>
+		    <img id="head" class="photo" style="width:150px;height:100px" src="">
+		    </center>
+		  </div>
+          
+             <div id="uploadPic">
+                <form  action="/S2014150057/user/setHead" name="fff" id="fileform"  enctype="multipart/form-data">
+				    <input type="file" name="file" />
+				    <input type="button" id="sub" value="上传文件" />
+				  </form>
+             
+            </div>
+		</td>
+	 </tr>
+									
+     <tr>
+		<td class="td-tex">
+        <label for="sex">&nbsp;性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别:</label>
+        </td>
+		
+        <td>
+	    <select id="sex">  
+		  <option value ="1">男</option>  
+		  <option value ="0">女</option>  
+		</select> 
+		</td>
+	 </tr>
+     
+	 <tr>
+		<td class="td-tex">
+        <label for="identity">&nbsp;身&nbsp;&nbsp;份&nbsp;&nbsp;证:</label>
+        </td>
+    
+	    <td>
+        <input type="text" name="identity" class="normal-input td-input" id="identity" value="">
+        </td>
+	</tr>
+										
+	<tr>                                  
+		<td class="td-tex">
+        <label for="phone">&nbsp;手&nbsp;&nbsp;机&nbsp;&nbsp;号:</label>
+        </td>
+        
+		<td>
+        <input type="text" name="phone" class="normal-input td-input" id="phone" value="">
+        </td>
+	</tr>
+				
+				
+	   <tr>
+	      <td class="td-tex">
+          <label for="mail">&nbsp;邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱:</label>
+          </td>
+		<td><input type="text" name="" class="normal-input td-input" id="mail" value="">
+        </td>
+      </tr>
+      
+      								
+       <tr>
+	      <td class="td-tex">
+          <label for="city">&nbsp;地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区:</label>
+          </td>
+		<td><input type="text" name="" class="normal-input td-input" id="city" value="">
+        </td>
+      </tr>
+      
+          <tr>
+	      <td class="td-tex">
+          <label for="time">&nbsp;创&nbsp;建&nbsp;时&nbsp;间:</label>
+          </td>
+		<td><input type="text" name="" disabled="disabled" class="normal-input td-input" id="time" value="">
+        </td>
+      </tr>
+	</tbody>
+</table>
+
+</div>
+ </div>
+</div>
+                
+  
+  
+  <div class="box-buttom">
+				
+ <a class="btn btn-normal btn-select " href="javascript:;" id="save"><span class="l"></span><span class="t">保存</span><span class="r"></span></a>
+				
+				
+<a class="btn btn-normal btn-select btn-reset-equ" id="reset"  href="javascript:;"><span class="l"></span><span class="t">重置</span><span class="r"></span></a>
+</div>              
+</body></html>

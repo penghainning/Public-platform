@@ -1,0 +1,135 @@
+.login_logo{
+	margin-top:20px;
+	text-align:center;
+	}
+
+.login{
+	background:url(../image/tmbg-white.png); 
+	background:#77A0DE;
+	width:400px;
+	height:240px;
+	margin:auto;
+	position:relative;
+	}
+
+
+.type{
+	color:#fff;
+	position:absolute;
+	top:28px;
+	left:15px;
+	}
+	
+		
+.login_type{
+	position:absolute;
+	top:28px;
+	left:90px;
+	}
+
+
+.username{
+	color:#FFFFFF;
+	position:absolute;
+	top:72px;
+	left:45px;
+	}
+	
+.login_1{
+	position:absolute;
+	top:72px;
+	left:90px;
+	}
+
+.login_1 input{
+	border:0px;
+	line-height:22px;
+	font-size:12px;
+	color:#000;
+	width:260px;
+	height:22px;
+	}
+	
+.pwd{
+	color:#FFFFFF;
+	position:absolute;
+	top:116px;
+	left:45px;
+	}
+		
+.login_2{
+	position:absolute;
+	top:116px;
+	left:90px;
+	}
+
+.login_2 input{
+	border:0px;
+	line-height:22px;
+	font-size:12px;
+	color:#000;
+	width:260px;
+	height:22px;
+	}
+
+
+.yzm{
+	color:#FFFFFF;
+	position:absolute;
+	top:160px;
+	left:30px;
+	}
+	
+		
+.login_yzm{
+	position:absolute;
+	top:160px;
+	left:90px;
+	}
+
+.login_yzm input{
+	border:0px;
+	line-height:22px;
+	font-size:12px;
+	color:#000;
+	height:22px;
+	width:120px
+	}
+	
+.img_yzm{
+	position:absolute;
+	top:160px;
+	left:240px;
+	}
+	
+	
+.login_3{
+	position:absolute;
+	top:204px;
+	left:25px;
+	}
+
+.login_3 input{
+	border:0px;
+	background:none;
+	}
+
+.login_remember{
+	position:absolute;
+	color:#FFFFFF;
+	top:204px;
+	left:50px;
+	}
+
+
+.login_4{
+	position:absolute;
+	top:204px;
+	right:60px;
+	}
+	
+.login_5{
+	position:absolute;
+	top:204px;
+	left:220px;
+	}

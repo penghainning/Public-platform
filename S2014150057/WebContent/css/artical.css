@@ -1,0 +1,38 @@
+ .panel{border:solid 1px #ddd;border-radius:4px;}
+      .table{width: 80%; margin-left:20px;}
+      .add_art{width:70%;height: 60px;position: relative;left: 150px;}
+      table,tr{border: 1px #ddd solid;border-spacing: 0px;text-align: center}
+      td,th{border-bottom: 1px solid #ddd;height: 80px;}
+      a{ text-decoration: none;color: black;border:1px solid #ccc;border-radius: 4px;display: inline-block;}
+      #Add{  margin-top:20px;display: block; text-decoration: none;color: #22CC77;border: 1px solid ;border-radius:4px;width: 90px;height: 40px;line-height: 40px;text-align: center;}
+      .pagelist span,.pagelist a{ border-radius:3px; border:1px solid #dfdfdf;display:inline-block; padding:5px 12px; margin-right: 20px;}
+      .operate a{width:45px;height:30px;line-height: 30px;margin-right: 5px;}
+        #div1{
+		border-radius:5px;
+		color: #ddd;
+		border: 1px solid ;border-radius:4px;line-height: 40px;text-align: center;
+		padding:20px;
+
+		
+       }
+	   
+	   #choose{
+		   width:80px;
+		   height:30px;
+		   margin-right:20px
+	   }
+	    #content{
+		   width:150px;
+		   height:30px;
+		   margin-right:20px
+	   }
+	    #search{
+		   width:80px;
+		   height:30px;
+		   line-height:30px;
+		   margin-right:20px;
+	
+	   }
+	   #search:hover{color:#22CC77;}
+	   
+      
