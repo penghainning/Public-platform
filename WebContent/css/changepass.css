@@ -1,0 +1,40 @@
+.panel {
+    border: solid 1px #ddd;
+    border-radius: 4px;
+	background: #fff;
+}
+
+.panel-head {
+    background-color: #fcfcfc;
+    padding: 10px 15px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: solid 1px #ddd;
+}
+.body-content {
+    padding: 20px 0;
+    overflow: hidden;
+}
+.passform{
+    margin-left:0 ;
+     padding-left: 300px;
+    border: 0;
+    font-size: 14px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.form-group {
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+}
+
+.input {
+    font-size: 14px;
+    padding: 10px;
+    border: solid 1px #ddd;
+    line-height: 20px;
+    display: block;
+    border-radius: 3px;
+}
+#sure{
+	margin-top:30px;
+}
